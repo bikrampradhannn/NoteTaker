@@ -1,0 +1,20 @@
+/* Navbar styles */
+.navbar {
+    background-color: black;
+    width: 100%;
+    height: auto; /* Adjusts height based on content */
+    margin: 0; /* Removes default margin */
+    padding: 10px 0; /* Adds padding for better spacing */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for depth */
+}
+
+/* Container styles */
+.container {
+    max-width: 1200px; /* Ensures maximum width */
+    width: 100%; /* Makes the container responsive */
+    height: auto; /* Allows height to adjust with content */
+    min-height: 800px; /* Ensures at least 800px height */
+    margin: 0 auto; /* Centers the container */
+    padding: 20px; /* Adds padding inside the container */
+    box-sizing: border-box; /* Ensures padding doesn't affect total width */
+}
